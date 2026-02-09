@@ -1,0 +1,31 @@
+h1{
+    color: #d58936;
+    text-align: center;
+    font-family: Bree Serif;
+    font-size: 40;
+}
+
+.button{
+    color: white;
+    background-color: #3c1518;
+    font-family: Bree Serif;
+    font-size: 20;
+    border-radius: 5px;
+}
+
+#Buttons{
+    text-align: center;
+    background-color: #d58936;
+    padding: 6;
+    border-radius: 5px;
+}
+
+#MainText{
+    color: white;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+body{
+    background-color: #3c1518;
+}
