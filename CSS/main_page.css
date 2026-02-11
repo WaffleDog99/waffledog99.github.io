@@ -16,6 +16,7 @@
 
 #TopBar{
     text-align: center;
+    transition : 10ms;
 }
 
 h1 {
