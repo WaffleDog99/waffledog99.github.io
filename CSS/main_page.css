@@ -1,9 +1,5 @@
-#AnimatedHeading{
-    color: #d58936;
-    text-align: center;
-    font-family: Bree Serif;
-    font-size: 40;
-    font-weight : bold;
+body{
+    background-color: #3c1518;
 }
 
 .button{
@@ -12,15 +8,22 @@
     font-family: Bree Serif;
     font-size: 20;
     border-radius: 5px;
+    cursor: help;
 }
 
 #TopBar{
     text-align: center;
-    transition : 10ms;
+    background-color: #d58936;
+    padding: 6;
+    border-radius: 5px;
+}
+
+#WebsiteSnake{
+    float: right;
+    width: 10%;
 }
 
 h1 {
-    color: #d58936;
     text-align: center;
     font-family: Bree Serif;
     font-size: 100;
@@ -29,8 +32,30 @@ h1 {
     left: 0;
     right: 0;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 25;
     transition: 600ms;
+    cursor: default;
+    width: 1000px
+}
+
+#AboutMeHyperlink:link{
+    color: #d58936;
+    text-decoration: none;
+}
+
+#AboutMeHyperlink:visited{
+    color: #d58936;
+    text-decoration: none;
+}
+
+#AboutMeHyperlink:hover{
+    color: #d58936;
+    text-decoration: none;
+}
+
+#AboutMeHyperlink:active{
+    color: #d58936;
+    text-decoration: none;
 }
 
 #MainText{
@@ -42,8 +67,22 @@ h1 {
     right: 0;
     margin: auto;
     margin-top: 200px;
+    width: 1000px;
 }
 
-body{
-    background-color: #3c1518;
+#block1{
+    font-size: 25;
+}
+
+#block2{
+    font-size: 20;
+}
+
+#list1{
+    text-align: left;
+    margin-left: 410px;
+}
+
+#block3{
+    font-size: 20;
 }
